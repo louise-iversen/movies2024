@@ -1,0 +1,65 @@
+body {
+  background-color: rgba(253, 253, 253, 0.5);
+  font-family:calibri;
+  margin: 10px;
+  padding: 0px;
+}
+#container{
+  width: 1200px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right:10px;
+}
+img {
+width: 190px;
+height: 280px;
+border: 2px solid rgb(33, 124, 33);
+}
+.f1 {
+ /* Placerer billederne ved siden af hinanden*/
+float: left;
+/* Margin på 10px til højre/bunden af billedet*/
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.f2 {
+text-align: center;
+color: rgb(33, 124, 33);
+font-style: italic;
+}
+h1 {
+  padding: 10px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style:double;
+  text-decoration-color: rgb(33, 124, 33);
+  color: black;
+}
+h2 {
+  text-align: center;
+  margin: 15px;
+}
+.year {
+  font-style: normal;
+}
+
+/*STJERNER*/
+.zero, .half, .one, .onehalf, .two, .twohalf, .three, .threehalf, .four, .fourhalf, .five {
+height: 20px;
+width: 75px;
+/*Margin placerer stjerner i midten*/
+margin: auto;
+}
+.zero {
+  background-image: url(http://static.tumblr.com/bkd4m5b/FLYmj96i8/zero.png);
+}
+.half {background-image: url(http://static.tumblr.com/bkd4m5b/Fgkmj96ix/half.png)}
+.one {background-image: url(http://static.tumblr.com/bkd4m5b/BUrmj96j9/one.png)}
+.onehalf {background-image: url(http://static.tumblr.com/bkd4m5b/7VTmj96jk/onehalf.png)}
+.two {background-image: url(http://static.tumblr.com/bkd4m5b/Z97mj96jw/two.png)}
+.twohalf {background-image: url(http://static.tumblr.com/bkd4m5b/VzQmj96k8/twohalf.png)}
+.three {background-image: url(http://static.tumblr.com/bkd4m5b/o2Jmj96kj/three.png)}
+.threehalf {background-image: url(http://static.tumblr.com/bkd4m5b/4dMmj96ku/threehalf.png)}
+.four {background-image: url(http://static.tumblr.com/bkd4m5b/Pr6mj96l6/four.png)}
+.fourhalf {background-image: url(http://static.tumblr.com/bkd4m5b/xEJmj96lr/fourhalf.png)}
+.five {background-image: url(http://static.tumblr.com/bkd4m5b/UeWmj96m2/five.png)}
