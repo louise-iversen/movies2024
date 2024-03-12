@@ -4,6 +4,19 @@ body {
   margin: 10px;
   padding: 0px;
 }
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: green;
+}
+
 #container{
   width: 1200px;
   margin: auto;
