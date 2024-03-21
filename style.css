@@ -23,6 +23,9 @@ a:hover {
   padding-left: 10px;
   padding-right:10px;
   box-sizing: content-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 img {
 width: 190px;
