@@ -1,6 +1,7 @@
 body {
-  background-color: rgba(253, 253, 253, 0.5);
-  font-family:calibri;
+  background-color: rgba(255, 255, 255, 0.99);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, Roboto;
+  font-size: small;
   margin: 10px;
   padding: 0px;
 }
@@ -13,9 +14,6 @@ a:visited {
   color: grey;
 }
 
-a:hover {
-  color: green;
-}
 
 #container{
   width: 1200px;
@@ -42,17 +40,25 @@ margin-right: 10px;
 margin-bottom: 10px;
 }
 .f2 {
+font-style: normal;
+width: 190px;
+background-color: #FFFFFF;  /* CHANGES FILM TITLE HOVER BACKGROUND COLOR */
+height: 25px;
+padding: 5px 0px;
+
+position: ;
+bottom: -50px;
 text-align: center;
-color: rgb(33, 124, 33);
-font-style: italic;
+font-size: 8px;  /* CHANGES FILM TITLE HOVER FONT SIZE */
+text-transform: uppercase;
+letter-spacing:1px;
+color: rgb(33, 124, 33); /* CHANGES FILM TITLE HOVER TEXT COLOR */
+
 }
 h1 {
   padding: 10px;
   text-align: center;
-  text-decoration-line: underline;
-  text-decoration-style:double;
-  text-decoration-color: rgb(33, 124, 33);
-  color: black;
+  color: rgb(20, 75, 20);
 }
 h2 {
   text-align: center;
