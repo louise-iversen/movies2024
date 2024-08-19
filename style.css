@@ -3,7 +3,7 @@ body {
   font-family:system-ui, -apple-system, BlinkMacSystemFont, Roboto;
   font-size: small;
   margin: 10px;
-  padding: 0px;
+  padding: 10px 10px 10px 10px;
 }
 
 a {
